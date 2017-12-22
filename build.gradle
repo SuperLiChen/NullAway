@@ -23,7 +23,6 @@ repositories {
   jcenter()
 }
 
-
 subprojects {
     buildscript {
         repositories {
@@ -34,6 +33,7 @@ subprojects {
         }
     }
 
+	
     repositories {
         maven {
             url "https://raw.githubusercontent.com/msridhar/checker-framework/repository/"
